@@ -64,5 +64,5 @@ fn main() {
 fn text() {
     let text = format!("test");
     fs::write("text.txt", text).expect("Unable to write to file");
-    println!("Created test.txt in local directory\n");
+    println!("Created test.txt in current directory\n");
 }
